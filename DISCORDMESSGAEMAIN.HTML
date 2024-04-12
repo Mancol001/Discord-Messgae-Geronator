@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<title>Discord Message geronator</title>
+<style>
+    body{
+        background-color: rgb(55, 55, 245);
+        font-family: 'Courier New', Courier, monospace;
+    }
+</style>
+<h1>Discord message geronator</h1>
+<h2 id="copymessage">Copy it here</h2>
+<input type="text" id="textbox">
+<button id="generate">Generate</button>
+
+<script>
+    document.getElementById("generate").addEventListener("click" , function() {
+        var textbox = document.getElementById("textbox").value;
+        var dismessage = "Yoooooo, Watsup " + textbox + "!";
+        var textoutput = document.getElementById("copymessage");
+        textoutput.textContent = dismessage;
+        document.getElementById("textbox").value = "";
+    });
+    document.getElementById("textbox").value = "Discord Username here";
+</script>
