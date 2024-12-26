@@ -1,4 +1,4 @@
-COPYRIGHTED = OK
+COPYRIGHTED = FREE
 ------------------------------------------------------------------------------
 
 first project soo no hate
